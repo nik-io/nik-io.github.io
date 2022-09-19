@@ -72,7 +72,7 @@ spotify_id: # your spotify id
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics:  # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics: G-NBVW4Z6XC0 # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 google_site_verification: googled929d27e5ce4c70d.html% # your google-site-verification ID (Google Search Console)

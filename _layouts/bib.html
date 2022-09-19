@@ -116,8 +116,20 @@
 	    {%- elsif entry.journal -%}
 	    {{entry.journal}}, {{entry.year}}
 	    {%- else -%}
+            {% if entry.type == "phdthesis" -%}
+	    PhD thesis, {{entry.school}}, {{entry.year}}.
+	    {%- endif -%}
 	    {%- endif -%}
           </div>
+          <div>
+	  {%- if entry.best_paper -%}
+	  <b>Best paper award</b>
+	  {%- elsif entry.best_paper_candidate -%}
+	  <b>Best paper candidate</b>
+	  {%- elsif entry.spotlight -%}
+	  <b>Spotlight paper award</b>
+	  {%- endif -%}
+	  </div>
           <!-- {%- if entry.type == "article" -%} -->
           <!--   {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%} -->
           <!-- {%- elsif ["inproceedings", "incollection"] contains entry.type -%} -->
@@ -134,7 +146,8 @@
           <!-- {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{%- endcapture -%} -->
           <!-- <div class="periodical"> -->
           <!--   {{ periodical | strip }} -->
-          <!-- </div> -->
+            <!-- </div> -->
+
         {%- endif %}
         
           <!-- Links/Buttons -->
