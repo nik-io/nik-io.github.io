@@ -21,4 +21,4 @@ order: 1
 
 Nikolas Ioannou is an engineering manager at Youtube, Google, working on the infrastructure that serves Youtube's metadata to more than 1.5B users per month. Before joining Google, Nikolas was a research manager at IBM Research Zurich, working on projects related to cloud block storage, NVMe-optimized data stores, flash-storage management, and accelerating machine learning workloads.
 
-He holds over 95 patents and he is an author of more than 40 papers, including 1 best paper and 2 spotlight awards. Nikolas is a distinguished speaker and senior member of the ACM. He received his ECE degree from National Technical University of Athens, and his PhD in Computer Science from the University of Edinburgh (UK).
+He holds over 116 patents and he is an author of more than 50 papers, including 1 best paper and 2 spotlight awards. Nikolas is a distinguished speaker and senior member of the ACM. He received his ECE degree from National Technical University of Athens, and his PhD in Computer Science from the University of Edinburgh (UK).
