@@ -1,0 +1,4 @@
+- add new to _bibliograph/[patents|papers].bib
+- add new years to _pages/[patents|publigations].md
+- jekyll build, jekyll serve to test locally
+- bin/deploy -s main to push to ghpages
